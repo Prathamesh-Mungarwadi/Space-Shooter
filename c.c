@@ -55,7 +55,6 @@ int main(void) {
 				mvprintw(row + i * vert_space, column + player1.column * horiz_space, "%c", a[i][player1.column]);
 			}
 			break;
-
 		case 32:
 			player_shoot(&player1);
 			player_no_of_shoots++;
@@ -89,7 +88,7 @@ void space_create(char a[][N]) {
 	}
 	vert_space = max_y / (N - 1);
 	horiz_space = max_x / (N - 1);
-	row = (max_y - 4 - (N - 1) * vert_space) / 2;
+	row = (max_y - (N - 1) * vert_space) / 2;
 	column = (max_x - (N - 1) * horiz_space) / 2;
 	for (i = 0; i < N; i++) {
 		for (k = 0; k < N; k++) {
