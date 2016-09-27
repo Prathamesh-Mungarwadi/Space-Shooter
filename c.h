@@ -4,8 +4,8 @@
 #include <ncurses.h>
 #include <unistd.h>
 #define N 20
-#define M 7
 /*Number of blocks used*/
+#define M 7
 
 typedef struct {
 	int ship_column; 
@@ -41,9 +41,6 @@ void player_shoot(player_ship *player1);
 
 void player_ammo_forward(char a[][N], player_ship *player1);
 /*Moving player ammo forward*/
-
-void change_refresh_time(void);
-/*Moving ammo after certain time*/
 
 int points = 0;/*Player points*/
 int  win = 1;/*Condition for continuing game*/
