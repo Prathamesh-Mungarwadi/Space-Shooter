@@ -5,7 +5,6 @@
 #include <unistd.h>
 #define N 20
 /*Number of blocks used*/
-#define M 7
 
 typedef struct {
 	int ship_column; 
