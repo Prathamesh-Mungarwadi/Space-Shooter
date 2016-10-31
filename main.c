@@ -334,7 +334,7 @@ void mode(void) {
 				break;
 			case 27:
 				endwin();
-				exit(0);
+				return;
 			default:
 				refresh();
 				break;
