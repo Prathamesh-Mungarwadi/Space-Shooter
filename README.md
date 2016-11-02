@@ -8,4 +8,3 @@ This game has three modes and three difficulty levels.
 You can buy weapons and erase the previous highscores. 
 I have left colors in comments so that anyone who wants to add the color can simply uncomment it.
 I have uploaded screenshots and video of the game along with the code. 
-![alt text](/home/prathamesh/Pictures/main_menu.png "Main Menu")
